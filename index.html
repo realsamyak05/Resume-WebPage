@@ -1,105 +1,169 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Samyak's Resume</title>
-    <h1>Samyak Chaturvedi</h1>
-</head>
-<body>
-    <div>
-    <span>Contact: </span>
-    <a href="mailto:samyakchaturvedi11@gmail.com">samyakchaturvedi11@gmail.com</a>
-    <br/>
-    <br/>
-    <span>Linkedin:</span>
-    <a href="https://www.linkedin.com/in/samyak-chaturvedi">linkedin.com/in/samyak-chaturvedi</a>
-    <br/>
-    <br/>
-    <span>Github: </span>
-    <a href="https://github.com/realsamyak05">github.com/realsamyak05</a>
-    <br/>
-    <br/>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="name">
+      <h1>Samyak Chaturvedi</h1>
     </div>
-    <div>
-        <img src="IMG_20251015_212621_263.webp" align = "left" alt="MyPhoto" height="160px" width="160px">
-        <p><br/><br/><br/><br/>I am passionate engineering student, with building skills in full-stack development, data structure and algorithms. Actively looking for learning opportunities. I also love to explore technolgy in general, and new effiecient solutions built around the world.I am constantly expanding my skills with latest advancement in field of software development.</p>
-    </div>
-    <br>
-    <br>
-    <div>
-        <h2>Education</h2>
-        <ul>
-            <li>1st year, B.Tech (Information Technology), KIET, Ghaziabad, Uttar Pradesh, India</li>
-            <li>Heera Lal Public School, Delhi, India</li>
-            <li>Stella Maris Convent School, Sultanpur, Uttar Pradesh</li>
-        </ul>
-    </div>
-    <div>
-        <h2>Projects</h2>
-        <h3>Local-Community-Portal-Design</h3>
-        <a href="https://github.com/realsamyak05/Local-Community-Portal-Design/deployments/github-pages">Deployed Link</a>
-        <ul>
-            <li>Developed a multi-page community portal website using HTML and inline CSS, featuring Home, Events, Business Directory, Forum, and Login pages.</li>
-            <li>Designed an intuitive user interface with styled navigation menus, banner sections, news cards, and community highlights to enhance user experience.</li>
-            <li>Utilized GitHub for version control and organized the project into separate webpages, ensuring clean structure and easier maintenance.</li>
-        </ul>
+    <div class="contacts">
+      <div id="email">
+        <span>Contact: </span>
+        <a href="mailto:samyakchaturvedi11@gmail.com"
+          >samyakchaturvedi11@gmail.com</a
+        >
+      </div>
 
-        <h3>C program for Gauss Seidel Method to solve system of three linear equations</h3>
-        <a href="https://github.com/realsamyak05/gauss-seidel-method">Repositary Link</a>
-        <ul>
-            <li>Diagonal dominance verification</li>
-            <li>Iterative solution using Gauss Seidel method</li>
-            <li>User-defined accuracy (decimal precision)</li>
-        </ul>
+      <br />
+      <div id="Linkedin">
+        <span>Linkedin:</span>
+        <a href="https://www.linkedin.com/in/samyak-chaturvedi"
+          >linkedin.com/in/samyak-chaturvedi</a
+        >
+      </div>
 
-        <h3>RideNow</h3>
-        <a href="https://ride-9dam17iht-realsamyak05s-projects.vercel.app/">Deployed Link</a>
-        <ul>
-            <li>Dymanice ride sharing app with special female safety mode</li>
-            <li>This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.</li>
-            <li>Feature to show how much Co2 saved and it's tree planted equivalent</li>
-        </ul>
+      <br />
+
+      <div id="Github">
+        <span>Github: </span>
+        <a href="https://github.com/realsamyak05">github.com/realsamyak05</a>
+      </div>
     </div>
-    <div>
-        <h3>SKills</h3>
-        <ul>
-            <li>C</li>
-            <li>C++</li>
-            <li>Python</li>
-            <li>HTML</li>
-        </ul>
+    <div class="myself">
+      <img
+        id="myPic"
+        src="IMG_20251015_212621_263.webp"
+        alt="MyPhoto"
+        height="160px"
+        width="160px"
+      />
+      <p id="aboutMe">
+        I am passionate engineering student, with building skills in full-stack
+        development, data structure and algorithms. Actively looking for
+        learning opportunities. I also love to explore technolgy in general, and
+        new effiecient solutions built around the world.I am constantly
+        expanding my skills with latest advancement in field of software
+        development.
+      </p>
     </div>
-    <div>
-        <h3>Achievements</h3>
-        <ul>
-            <li>Won intra-college Science Day ideathon with project polinex.</li>
-            <li>Qualified first round of all India Hackathon Organised by Delhi Municipal Authority - India Innovates 2026.</li>
-        </ul>
+    <div class="edu">
+      <h2>Education</h2>
+      <ul>
+        <li>
+          1st year, B.Tech (Information Technology), KIET, Ghaziabad, Uttar
+          Pradesh, India
+        </li>
+        <li>Heera Lal Public School, Delhi, India</li>
+        <li>Stella Maris Convent School, Sultanpur, Uttar Pradesh</li>
+      </ul>
     </div>
-    <br/>
+    <div class="pro">
+      <h2 id="head1">Projects</h2>
 
-    <section>
-        <h2>FAQs:</h2>
-        <details>
-            <summary>What is your name?</summary>
-            My name is Samyak.
-        </details>
+      <h3 id="head2">Local-Community-Portal-Design</h3>
+      <a
+        href="https://github.com/realsamyak05/Local-Community-Portal-Design/deployments/github-pages"
+        >Deployed Link</a
+      >
+      <ul>
+        <li>
+          Developed a multi-page community portal website using HTML and inline
+          CSS, featuring Home, Events, Business Directory, Forum, and Login
+          pages.
+        </li>
 
-        <details>
-            <summary>Where do you study?</summary>
-            I study in KIET, Ghaizabad.
-        </details>
+        <li>
+          Designed an intuitive user interface with styled navigation menus,
+          banner sections, news cards, and community highlights to enhance user
+          experience.
+        </li>
+        <li>
+          Utilized GitHub for version control and organized the project into
+          separate webpages, ensuring clean structure and easier maintenance.
+        </li>
+      </ul>
 
-        <details>
-            <summary>What do you enjoy the most?</summary>
-            I really enjoy coding and watching movies and listening to music.
-        </details>
+      <h3 id="head3">
+        C program for Gauss Seidel Method to solve system of three linear
+        equations
+      </h3>
+      <a href="https://github.com/realsamyak05/gauss-seidel-method"
+        >Repositary Link</a
+      >
+      <ul>
+        <li>Diagonal dominance verification</li>
+        <li>Iterative solution using Gauss Seidel method</li>
+        <li>User-defined accuracy (decimal precision)</li>
+      </ul>
+
+      <h3 id="head4">RideNow</h3>
+      <a href="https://ride-9dam17iht-realsamyak05s-projects.vercel.app/"
+        >Deployed Link</a
+      >
+      <ul>
+        <li>Dymanice ride sharing app with special female safety mode</li>
+        <li>
+          This template provides a minimal setup to get React working in Vite
+          with HMR and some ESLint rules.
+        </li>
+        <li>
+          Feature to show how much Co2 saved and it's tree planted equivalent
+        </li>
+      </ul>
+    </div>
+    <div class="skill">
+      <h3>Skills</h3>
+      <ul>
+        <li>C</li>
+        <li>C++</li>
+        <li>Python</li>
+        <li>HTML</li>
+        <li>CSS</li>
+      </ul>
+    </div>
+    <div class="achieve">
+      <h3>Achievements</h3>
+      <ul>
+        <li>Won intra-college Science Day ideathon with project polinex.</li>
+        <li>
+          Qualified first round of all India Hackathon Organised by Delhi
+          Municipal Authority - India Innovates 2026.
+        </li>
+      </ul>
+    </div>
+    <br />
+    <div class="line"></div>
+    <br />
+    <section class="faq">
+      <h2>FAQs:</h2>
+      <details>
+        <summary>Are you open to internships?</summary>
+        ==> Yes, I'm actively looking for internship opportunities and learning
+        experiences in software development and web-development.
+      </details>
+
+      <details>
+        <summary>Are you available for freelance work?</summary>
+        ==> Currently, I'm focused on learning and internships, but I'm open to
+        discussing suitable opportunities.
+      </details>
+
+      <details>
+        <summary>What do you enjoy the most?</summary>
+        ==> I really enjoy coding and watching movies and listening to music.
+      </details>
     </section>
+    <br />
+    <div class="line"></div>
+    <br />
     <div>
-        <footer>
-            <p>&copy 2026 Samyak Chaturvedi. All rights reserved.</p>
-        </footer>
+      <footer>
+        <p>&copy 2026 Samyak Chaturvedi. All rights reserved.</p>
+      </footer>
     </div>
-</body>
+  </body>
 </html>
